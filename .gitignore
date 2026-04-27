@@ -1,0 +1,31 @@
+.DS_Store
+
+# Secrets and local runtime state
+.env
+*.env
+*.key
+*.pem
+*.p12
+*.mobileprovision
+
+# OpenClaw/Codex runtime data that should not be published
+.openclaw/
+.codex/
+auth-profiles.json
+openclaw.json
+sessions/
+logs/
+deployment-records/
+*.log
+
+# Local/editor state
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node/package manager leftovers if scripts are expanded later
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
